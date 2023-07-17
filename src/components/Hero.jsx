@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiLogoTelegram, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 import { BsFacebook, BsGithub } from "react-icons/bs";
 import * as Scroll from "react-scroll";
@@ -13,6 +13,7 @@ import {
 } from "react-scroll";
 
 export default function Hero() {
+  const [active, setActive] = useState(false)
   return (
     <div className="lg:p-28 py-20">
       <div>
@@ -26,8 +27,9 @@ export default function Hero() {
         </p>
       </div>
       <div>
-        <ul className="w-fit hidden lg:flex mb-10 flex-col gap-3">
+        <ul className="w-fit hidden text-[0.8rem] lg:flex mb-10 flex-col gap-3">
           <li>
+            <span className="px-5 relative bottom-2 mr-5 border-b"></span>
             <Link
               to="about"
               className="cursor-pointer "
@@ -41,19 +43,21 @@ export default function Hero() {
             </Link>
           </li>
           <li>
+            <span className="px-5 relative bottom-2 mr-5 border-b"></span>
             <Link
               to="skill"
-              className="cursor-pointer "
+              className="cursor-pointer"
               spy={true}
               smooth={true}
               offset={0}
               duration={500}
-              activeClass="nav-active"
+              activeClass='nav-active'
             >
               SKILL
             </Link>
           </li>
           <li>
+            <span className="px-5 relative bottom-2 mr-5 border-b"></span>
             <Link
               to="project"
               className="cursor-pointer "
@@ -67,6 +71,7 @@ export default function Hero() {
             </Link>
           </li>
           <li>
+            <span className="px-5 relative bottom-2 mr-5 border-b"></span>
             <Link
               to="contact"
               className="cursor-pointer "
@@ -110,6 +115,7 @@ export default function Hero() {
             </a>
           </li>
         </ul>
+        <p className="mt-8 text-sm">©chanmyaeaung2023</p>
       </div>
     </div>
   );

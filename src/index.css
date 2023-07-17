@@ -4,14 +4,15 @@
 @tailwind utilities;
 
 .nav-active {
-    background: coral;
+    color: white;
+    font-weight: 600;
 }
 
 body{
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Inter Tight', sans-serif;
     background-color: rgb(15,23,42);
-    color: #c7c7c7;
+    color: #C5D1ED;
   }
 
   .heading{
@@ -21,5 +22,5 @@ body{
 .title{
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
 }

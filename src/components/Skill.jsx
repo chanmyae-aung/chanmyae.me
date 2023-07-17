@@ -3,9 +3,9 @@ import { Bounce } from 'react-awesome-reveal'
 
 export default function Skill() {
   return (
-    <div id='skill' className='pt-28'>
-      <h3 className='title'>Skills</h3>
-      <section className="flex justify-between gap-10 px-10 text-center flex-wrap">
+    <div id='skill' className='lg:pr-28'>
+      <h3 className='title py-2.5 lg:pt-28 z-40 lg:static sticky top-0 backdrop-blur-lg lg:backdrop-blur-0'>Skills</h3>
+      <section className="flex justify-between gap-10 text-center flex-wrap pb-28">
         <Bounce cascade damping={0.1}>
           <div className="">
             <img
