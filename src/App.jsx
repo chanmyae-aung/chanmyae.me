@@ -5,6 +5,8 @@ import Skill from "./components/Skill";
 import Projects from "./components/Projects";
 // import FOG from "vanta/dist/vanta.fog.min";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+
 
 export default function App() {
   // useEffect(() => {
@@ -18,7 +20,8 @@ export default function App() {
   //   })
   // },[])
   return (
-    <main id="fog" className="flex flex-col relative px-5 lg:px-0">
+    <main id="fog" className="flex flex-col relative">
+      <div className="absolute z-40 w-full lg:hidden h-screen flex items-center"><Navbar/></div>
       <div className="lg:w-[50%] overflow-hidden lg:fixed top-0">
         <Hero />
       </div>

@@ -3,18 +3,67 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-active {
-    color: white;
-    font-weight: 600;
+html {
+  scroll-behavior: smooth;
 }
+
+.nav-active {
+    color: #6ACFC7;
+    font-weight: 700;
+}
+
+.nav {
+  border-bottom: 2px solid #FFF;
+}
+.contact-icon {
+  border: 1px solid #6ACFC7;
+  border-radius: 100%;
+  background-color: transparent;
+  color: #6ACFC7;
+}
+
 
 body{
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Inter Tight', sans-serif;
-    background-color: rgb(15,23,42);
-    color: #C5D1ED;
+    letter-spacing: 0.03em;
+    /* background-color: rgb(15,23,42);
+    color: #C5D1ED; */
+
+    /* theme1 */
+    /* background-color: #E7EEED; */
+    background: #0C1A1A;
+    color: white;
+    /* background: #00000048; */
+
+    /* theme2 */
+    /* background-color: #FCF6F5;
+    color: #000; */
+
+    /* theme 3 */
+    /* background-color: #FADF00;
+    color: black; */
+
   }
 
+  h1{
+    /* color: #1544C0; */
+    /* color: #990011; */
+    color: #6ACFC7;
+  }
+
+  h3{
+    /* border-bottom: 2px solid #6ACFC7; */
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #6ACFC7;
+    width: fit-content;
+    margin-bottom: 0px;
+  }
+.h {
+  color: #6ACFC7;
+  font-weight: 600;
+}
   .heading{
     font-size: xx-large;
     font-weight: 900;
@@ -23,4 +72,23 @@ body{
   font-size: 1.5rem;
   font-weight: 600;
   /* margin-bottom: 2.5rem; */
+}
+label{
+  @apply text-sm font-semibold
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6ACFC7;
 }
