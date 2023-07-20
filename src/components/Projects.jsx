@@ -3,6 +3,7 @@ import { projects } from "../constants/data";
 import { BsGithub } from "react-icons/bs";
 import { HiLink } from "react-icons/hi";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-scroll";
 
 export default function Projects() {
 
@@ -13,9 +14,18 @@ export default function Projects() {
           Projects
         </h3>
         <p className=" p-5 lg:px-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum
-          quaerat tempore tempora, ratione dolorum hic perspiciatis doloremque
-          eum ipsam vero beatae fuga ipsum cupiditate.
+          Here are some of my team projects and personal projects. If you want to see more examples of my work than the ones showcased in this site, please {" "}
+          <Link
+              to="contact"
+              className="cursor-pointer font-bold transition-all text-[#6ACFC7] duration-100"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              activeClass="nav-active"
+            >
+              contact me
+            </Link>.
         </p>
       </Fade>
       <div className="px-5 lg:px-0 flex gap-5 lg:flex-row lg:gap-0  flex-wrap justify-between transition-all duration-700">

@@ -2,6 +2,8 @@ import React from "react";
 import { RiMailLine, RiPhoneLine } from "react-icons/ri";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
+import { BsFacebook, BsGithub } from "react-icons/bs";
+import { BiLogoLinkedin, BiLogoTelegram } from "react-icons/bi";
 
 export default function Contact() {
   return (
@@ -75,6 +77,34 @@ export default function Contact() {
         </button>
       </form>
       </Fade>
+      <ul className="flex gap-5 justify-center my-5 text-2xl lg:hidden items-center">
+          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+            <a href="https://www.facebook.com/profile.php?id=100009339545293">
+              <BsFacebook />
+            </a>
+          </li>
+          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+            <a href="https://github.com/chanmyae-aung">
+              <BsGithub />
+            </a>
+          </li>
+          {/* <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+            <a href="#">
+              <BiLogoGmail />
+            </a>
+          </li> */}
+          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+            <a href="#">
+              <BiLogoTelegram />
+            </a>
+          </li>
+
+          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+            <a href="https://www.linkedin.com/in/chan-myae-36a717199/">
+              <BiLogoLinkedin />
+            </a>
+          </li>
+        </ul>
       <p className="py-5 lg:hidden text-center border-t text-xs">
         ©chanmyaeaung2023
       </p>

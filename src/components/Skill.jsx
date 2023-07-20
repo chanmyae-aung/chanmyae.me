@@ -8,9 +8,9 @@ export default function Skill() {
         <h3 className="px-5 lg:px-0 title my-2.5 pt-28 ">
           Skills
         </h3>
-        <p className="p-5 lg:px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum quaerat tempore tempora, ratione dolorum hic perspiciatis doloremque eum ipsam vero beatae fuga ipsum cupiditate.</p>
+        <p className="p-5 lg:px-0">The main area of expertise is frontend development (client side of the web).</p>
         </Fade >
-        <section className="flex px-5 lg:px-0 justify-start gap-12 text-center flex-wrap">
+        <section className="flex px-5 lg:px-0 lg:justify-start justify-between  gap-12 text-center flex-wrap">
         <Fade triggerOnce={true} direction="up" delay={700} cascade damping={0.3}>
           <div className="">
             <img
