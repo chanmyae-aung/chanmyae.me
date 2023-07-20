@@ -12,7 +12,7 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import { Bounce } from "react-awesome-reveal";
+import { Bounce, Rotate } from "react-awesome-reveal";
 
 export default function Hero() {
   useEffect(() => {
@@ -34,22 +34,14 @@ export default function Hero() {
       backgroundAlpha: 0
     })
   },[])
-  const [active, setActive] = useState(false);
-  useEffect(() => {
-    const section = document.getElementsByTagName("a");
-    // console.log(section);
-    // let current = section?.map((i) => {
-    //     return console.log(i)
-    //   })
-    }, []);
 
   return (
     <div className="lg:px-28 px-5 lg:pb-28 pb-20 hidden lg:block">
       <div id="vanta">
         <h1 className="heading pt-28">
-        <Bounce direction="left" cascade duration={200}>
+        <Rotate direction="left" cascade duration={200}>
           CHAN MYAE AUNG
-        </Bounce>
+        </Rotate>
         </h1>
         <h3 className="title">Frontend Developer</h3>
         <p className="my-10">
@@ -62,7 +54,7 @@ export default function Hero() {
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="about"
-              className="cursor-pointer transition-all duration-100"
+              className="cursor-pointer hover:font-bold transition-all duration-100"
               spy={true}
               smooth={true}
               offset={0}
@@ -76,7 +68,7 @@ export default function Hero() {
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="skill"
-              className="cursor-pointer transition-all duration-100"
+              className="cursor-pointer hover:font-bold transition-all duration-100"
               spy={true}
               smooth={true}
               offset={0}
@@ -90,7 +82,7 @@ export default function Hero() {
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="project"
-              className="cursor-pointer transition-all duration-100"
+              className="cursor-pointer hover:font-bold transition-all duration-100"
               spy={true}
               smooth={true}
               offset={0}
@@ -104,7 +96,7 @@ export default function Hero() {
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="contact"
-              className="cursor-pointer transition-all duration-100"
+              className="cursor-pointer hover:font-bold transition-all duration-100"
               spy={true}
               smooth={true}
               offset={0}
@@ -119,20 +111,20 @@ export default function Hero() {
       <div>
         <ul className="flex gap-5 text-2xl items-center">
           <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100009339545293">
               <BsFacebook />
             </a>
           </li>
           <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
-            <a href="#">
+            <a href="https://github.com/chanmyae-aung">
               <BsGithub />
             </a>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          {/* <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoGmail />
             </a>
-          </li>
+          </li> */}
           <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoTelegram />
@@ -140,7 +132,7 @@ export default function Hero() {
           </li>
 
           <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/chan-myae-36a717199/">
               <BiLogoLinkedin />
             </a>
           </li>

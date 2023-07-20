@@ -1,7 +1,8 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { AiOutlineDownload } from "react-icons/ai";
-
+import portrait from '../assets/portrait.png'
+import myphoto from '../assets/myphoto.png'
 export default function About() {
   return (
     <div id="about" className="lg:pr-28">
@@ -13,11 +14,18 @@ export default function About() {
         <h1 className="heading pt-28">CHAN MYAE AUNG</h1>
         <h3 className="title">Frontend Developer</h3>
         </div>
-        <img
-          className="h-[17rem] py-5 mx-auto"
-          src="http://funto.designing-world.com/img/bg-img/u4.jpg"
+        <div>
+          <img
+          className="w-[30rem] -mt-32 pb-5 mx-auto"
+          src={portrait}
           alt=""
         />
+        {/* <img
+          className="w-[20rem] -mt-32 pb-5 mx-auto"
+          src={myphoto}
+          alt=""
+        /> */}
+        </div>
         
         <div className="px-5 lg:px-0 flex flex-col gap-2">
           <p>

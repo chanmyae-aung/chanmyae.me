@@ -10,7 +10,7 @@ export default function Skill() {
         </h3>
         <p className="p-5 lg:px-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illum quaerat tempore tempora, ratione dolorum hic perspiciatis doloremque eum ipsam vero beatae fuga ipsum cupiditate.</p>
         </Fade >
-        <section className="flex px-5 lg:px-0 justify-between gap-10 text-center flex-wrap">
+        <section className="flex px-5 lg:px-0 justify-start gap-12 text-center flex-wrap">
         <Fade triggerOnce={true} direction="up" delay={700} cascade damping={0.3}>
           <div className="">
             <img
