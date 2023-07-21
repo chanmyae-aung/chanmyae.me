@@ -31,7 +31,7 @@ export default function Projects() {
       <div className="px-5 lg:px-0 flex gap-5 lg:flex-row lg:gap-0  flex-wrap justify-between transition-all duration-700">
         {projects?.map((i) => {
           return (
-              <div className="group project lg:mb-5 lg:mx-5 transition-all duration-500 h-fit overflow-hidden rounded relative">
+              <div key={i.id} className="group project lg:mb-5 lg:mx-5 transition-all duration-500 h-fit overflow-hidden rounded relative">
                 <Fade triggerOnce={true} direction="up" delay={300} cascade damping={0.5}>
                   <img className="" src={i.image} alt="" />
                 </Fade>

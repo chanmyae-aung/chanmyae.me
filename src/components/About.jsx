@@ -2,7 +2,6 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { AiOutlineDownload } from "react-icons/ai";
 import portrait from '../assets/portrait.png'
-import myphoto from '../assets/myphoto.png'
 export default function About() {
   return (
     <div id="about" className="lg:pr-28">
@@ -16,15 +15,10 @@ export default function About() {
         </div>
         <div>
           <img
-          className="w-[30rem] -mt-32 pb-5 mx-auto"
+          className="w-[22rem] h-[23rem] pb-5 mx-auto"
           src={portrait}
           alt=""
         />
-        {/* <img
-          className="w-[20rem] -mt-32 pb-5 mx-auto"
-          src={myphoto}
-          alt=""
-        /> */}
         </div>
         
         <div className="px-5 lg:px-0 flex flex-col gap-2">
