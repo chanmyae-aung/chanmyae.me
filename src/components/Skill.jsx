@@ -12,7 +12,7 @@ export default function Skill() {
         </Fade >
         <section className="flex px-5 lg:px-0 lg:justify-start justify-between  gap-12 text-center flex-wrap">
         <Fade triggerOnce={true} direction="up" delay={700} cascade damping={0.3}>
-          <div className="">
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=20909&format=png"
@@ -20,7 +20,7 @@ export default function Skill() {
             />
             <p>HTML5</p>
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=21278&format=png"
@@ -28,15 +28,15 @@ export default function Skill() {
             />
             CSS3
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=108784&format=png"
               alt=""
             />
-            JavsScript
+            JavaScript
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=123603&format=png"
@@ -44,7 +44,7 @@ export default function Skill() {
             />
             React
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16 p-1"
               src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png"
@@ -52,7 +52,7 @@ export default function Skill() {
             />
             Next.Js
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=jD-fJzVguBmw&format=png"
@@ -60,7 +60,7 @@ export default function Skill() {
             />
             Redux
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="p-2 h-16"
               src="https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png"
@@ -68,7 +68,7 @@ export default function Skill() {
             />
             Re-Query
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=20906&format=png"
@@ -76,7 +76,7 @@ export default function Skill() {
             />
             Git
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=84710&format=png"
@@ -84,7 +84,7 @@ export default function Skill() {
             />
             Bootstrap
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=QBqFNfPPB2Kx&format=png"
@@ -92,7 +92,7 @@ export default function Skill() {
             />
             SASS
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=CIAZz2CYc6Kc&format=png"
@@ -100,7 +100,7 @@ export default function Skill() {
             />
             Tailwind
           </div>
-          <div>
+          <div className="flex flex-col items-center">
             <img
               className="w-16"
               src="https://img.icons8.com/?size=512&id=zfHRZ6i1Wg0U&format=png"
