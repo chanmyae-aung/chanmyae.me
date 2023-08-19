@@ -8,7 +8,7 @@ import { BiLogoLinkedin, BiLogoTelegram } from "react-icons/bi";
 export default function Contact() {
   return (
     <div id="contact" className="h-fit lg:pr-28">
-      <Fade triggerOnce={true} direction="up" delay={300} cascade damping={0.3}>
+      <Fade triggerOnce={true} direction="up" cascade damping={0.3}>
         <h3 className="px-5 lg:px-0 title my-2.5 pt-28 ">
           Contact
         </h3>

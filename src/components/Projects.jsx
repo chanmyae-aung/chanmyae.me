@@ -43,10 +43,10 @@ export default function Projects() {
                     {/* <p>{i.tech}</p> */}
                   </div>
                   <div className=" flex items-center gap-5 justify-center group-hover:-translate-y-7 duration-500 transition-all translate-y-2">
-                    <a href={i.github}>
+                    <a target="_blank" href={i.github}>
                       <BsGithub className="bg-[#6ACFC7] p-1 w-8 h-8 rounded-full" />
                     </a>
-                    <a href={i.demo}>
+                    <a target="_blank" href={i.demo}>
                       <HiLink className="bg-[#6ACFC7] p-1 w-8 h-8 rounded-full" />
                     </a>
                   </div>

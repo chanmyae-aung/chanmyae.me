@@ -15,12 +15,30 @@ import Bootstrap from '../assets/Bootstrap.png'
 import SASS from '../assets/SASS.png'
 import Tailwind from '../assets/Tailwind.png'
 import Figma from '../assets/Figma.png'
+import devjobsearch from '../assets/devjobsearch.png'
+import devdashboard from '../assets/devdashboard.png'
 
 
 
 export const projects = [
     {
         id: 1,
+        image: devjobsearch,
+        title: "NFT Marketplace",
+        tech: "React | Tailwind",
+        github: "https://github.com/chanmyae-aung/dev-jobs-search",
+        demo: "http://159.223.80.82:90"
+    },
+    {
+        id: 2,
+        image:devdashboard,
+        title: "NFT Dashboard",
+        tech: "React | Tailwind",
+        github: "https://github.com/chanmyae-aung/dev-jobs-dashboard",
+        demo: "http://159.223.80.82:70"
+    },
+    {
+        id: 3,
         image: nft,
         title: "NFT Marketplace",
         tech: "React | Tailwind",
@@ -28,7 +46,7 @@ export const projects = [
         demo: "https://nft-marketplace-team.vercel.app/"
     },
     {
-        id: 2,
+        id: 4,
         image:nftDashboard,
         title: "NFT Dashboard",
         tech: "React | Tailwind",
@@ -36,7 +54,7 @@ export const projects = [
         demo: "https://nft-marketplace-dashboard-five.vercel.app/"
     },
     {
-        id: 3,
+        id: 5,
         image:contactApp,
         title: "Google Contact",
         tech: "React | Tailwind",
@@ -44,7 +62,7 @@ export const projects = [
         demo: "https://contact-app-smoky.vercel.app/"
     },
     {
-        id: 4,
+        id: 6,
         image:incline,
         title: "Incline Bootstrap Theme",
         tech: "React | Tailwind",
@@ -52,7 +70,7 @@ export const projects = [
         demo: "https://incline-bootstrap-theme.vercel.app/"
     },
     {
-        id: 5,
+        id: 7,
         image:social,
         title: "Social Webestica",
         tech: "HTML | Bootstrap | Js",
