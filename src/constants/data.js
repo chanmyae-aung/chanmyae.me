@@ -189,34 +189,34 @@ export const projects = [
             
         ]
     },
-    {
-        id: 7,
-        image:social,
-        title: "Social Webestica",
-        tech: "HTML | Bootstrap | Js",
-        github: "https://github.com/chanmyae-aung/incline-bootstrap-theme",
-        demo: "https://social-app-sigma-wine.vercel.app/",
-        description: "This project is only frontend UI project and developed only HTML, CSS, Js and Bootstarp.",
-        badges: [
-            {
-                id: 1,
-                text: "HTML",
-            },
-            {
-                id:2,
-                text: "CSS",
-            },
-            {
-                id:3,
-                text: "JavaScript",
-            },
-            {
-                id:4,
-                text: "Bootstrap",
-            },
+    // {
+    //     id: 7,
+    //     image:social,
+    //     title: "Social Webestica",
+    //     tech: "HTML | Bootstrap | Js",
+    //     github: "https://github.com/chanmyae-aung/incline-bootstrap-theme",
+    //     demo: "https://social-app-sigma-wine.vercel.app/",
+    //     description: "This project is only frontend UI project and developed only HTML, CSS, Js and Bootstarp.",
+    //     badges: [
+    //         {
+    //             id: 1,
+    //             text: "HTML",
+    //         },
+    //         {
+    //             id:2,
+    //             text: "CSS",
+    //         },
+    //         {
+    //             id:3,
+    //             text: "JavaScript",
+    //         },
+    //         {
+    //             id:4,
+    //             text: "Bootstrap",
+    //         },
             
-        ]
-    },
+    //     ]
+    // },
 ]
 
 export const skills = [

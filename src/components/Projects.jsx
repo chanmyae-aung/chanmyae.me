@@ -44,7 +44,7 @@ export default function Projects() {
                 damping={0.5}
               >
                 <div className="w-full group flex flex-col md:flex-row gap-5">
-                  <div className="w-[50%] md:w-[30%]">
+                  <div className="w-full md:w-[30%]">
                     <img className="" src={i.image} alt="" />
                   </div>
                   <div className="w-full md:w-[70%]">
