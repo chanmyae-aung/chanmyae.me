@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full ">
-      <div className="fixed w-full flex justify-end bg-[#1b1b1b] top-0 right-0 p-5 z-40 ">
+      <div className="fixed w-full flex justify-end bg-[#000] top-0 right-0 p-5 z-40 ">
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
     <ul className={`${isOpen ? "translate-x-0": "translate-x-full"} transition-all ease-linear duration-500 w-full h-screen text-xl fixed bottom-0 z-10 bg-[#000] flex items-center justify-center flex-col gap-10`}>
