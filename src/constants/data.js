@@ -24,18 +24,58 @@ export const projects = [
     {
         id: 1,
         image: devjobsearch,
-        title: "NFT Marketplace",
+        title: "Devjobs Search",
         tech: "React | Tailwind",
         github: "https://github.com/chanmyae-aung/dev-jobs-search",
-        demo: "http://159.223.80.82:90"
+        demo: "http://159.223.80.82:90",
+        description: "This app is for job searching platform for developers , engineers , all workers on local to be convinence.",
+        badges: [
+            {
+                id: 1,
+                text: "JavaScript",
+            },
+            {
+                id:2,
+                text: "React",
+            },
+            {
+                id:3,
+                text: "RTK Query",
+            },
+            {
+                id:4,
+                text: "Tailwind",
+            },
+            
+        ]
     },
     {
         id: 2,
         image:devdashboard,
-        title: "NFT Dashboard",
+        title: "Devjobs Dashboard",
         tech: "React | Tailwind",
         github: "https://github.com/chanmyae-aung/dev-jobs-dashboard",
-        demo: "http://159.223.80.82:70"
+        demo: "http://159.223.80.82:70",
+        description: "On dashboard, admin can create companies and jobs, then manage users and applicants, and download the cv applied by the users.",
+        badges: [
+            {
+                id: 1,
+                text: "JavaScript",
+            },
+            {
+                id:2,
+                text: "React",
+            },
+            {
+                id:3,
+                text: "RTK Query",
+            },
+            {
+                id:4,
+                text: "Tailwind",
+            },
+            
+        ]
     },
     {
         id: 3,
@@ -43,7 +83,27 @@ export const projects = [
         title: "NFT Marketplace",
         tech: "React | Tailwind",
         github: "https://github.com/liansun96/NFT-Marketplace-Team",
-        demo: "https://nft-marketplace-team.vercel.app/"
+        demo: "https://nft-marketplace-team.vercel.app/",
+        description: "This project is only frontend UI project, users can register, create, buy and sell their artworks",
+        badges: [
+            {
+                id: 1,
+                text: "JavaScript",
+            },
+            {
+                id:2,
+                text: "React",
+            },
+            {
+                id:3,
+                text: "RTK Query",
+            },
+            {
+                id:4,
+                text: "Tailwind",
+            },
+            
+        ]
     },
     {
         id: 4,
@@ -51,7 +111,27 @@ export const projects = [
         title: "NFT Dashboard",
         tech: "React | Tailwind",
         github: "https://github.com/liansun96/NFT-Marketplace-Dashboard",
-        demo: "https://nft-marketplace-dashboard-five.vercel.app/"
+        demo: "https://nft-marketplace-dashboard-five.vercel.app/",
+        description: "This dashboard is only frontend UI project for NFT Marketplace. In this dashboard, admin can manage users and their artworks.",
+        badges: [
+            {
+                id: 1,
+                text: "JavaScript",
+            },
+            {
+                id:2,
+                text: "React",
+            },
+            {
+                id:3,
+                text: "RTK Query",
+            },
+            {
+                id:4,
+                text: "Tailwind",
+            },
+            
+        ]
     },
     {
         id: 5,
@@ -59,7 +139,27 @@ export const projects = [
         title: "Google Contact",
         tech: "React | Tailwind",
         github: "https://github.com/chanmyae-aung/Contact-app",
-        demo: "https://contact-app-smoky.vercel.app/"
+        demo: "https://contact-app-smoky.vercel.app/",
+        description: "In this app, users can create and manage their contacts. Best practice of api fetching and state management system of React can see.",
+        badges: [
+            {
+                id: 1,
+                text: "JavaScript",
+            },
+            {
+                id:2,
+                text: "React",
+            },
+            {
+                id:3,
+                text: "RTK Query",
+            },
+            {
+                id:4,
+                text: "Tailwind",
+            },
+            
+        ]
     },
     {
         id: 6,
@@ -67,7 +167,27 @@ export const projects = [
         title: "Incline Bootstrap Theme",
         tech: "React | Tailwind",
         github: "https://github.com/chanmyae-aung/incline-bootstrap-theme",
-        demo: "https://incline-bootstrap-theme.vercel.app/"
+        demo: "https://incline-bootstrap-theme.vercel.app/",
+        description: "This project is only frontend UI project and developed only HTML, CSS, Js and Bootstarp.",
+        badges: [
+            {
+                id: 1,
+                text: "HTML",
+            },
+            {
+                id:2,
+                text: "CSS",
+            },
+            {
+                id:3,
+                text: "JavaScript",
+            },
+            {
+                id:4,
+                text: "Bootstrap",
+            },
+            
+        ]
     },
     {
         id: 7,
@@ -75,7 +195,27 @@ export const projects = [
         title: "Social Webestica",
         tech: "HTML | Bootstrap | Js",
         github: "https://github.com/chanmyae-aung/incline-bootstrap-theme",
-        demo: "https://social-app-sigma-wine.vercel.app/"
+        demo: "https://social-app-sigma-wine.vercel.app/",
+        description: "This project is only frontend UI project and developed only HTML, CSS, Js and Bootstarp.",
+        badges: [
+            {
+                id: 1,
+                text: "HTML",
+            },
+            {
+                id:2,
+                text: "CSS",
+            },
+            {
+                id:3,
+                text: "JavaScript",
+            },
+            {
+                id:4,
+                text: "Bootstrap",
+            },
+            
+        ]
     },
 ]
 

@@ -8,7 +8,7 @@ html {
 }
 
 .nav-active {
-    color: #6ACFC7;
+    color: #E50914;
     font-weight: 700;
 }
 
@@ -16,10 +16,10 @@ html {
   border-bottom: 2px solid #FFF;
 }
 .contact-icon {
-  border: 1px solid #6ACFC7;
+  border: 1px solid #E50914;
   border-radius: 100%;
   background-color: transparent;
-  color: #6ACFC7;
+  color: #E50914;
 }
 
 
@@ -32,7 +32,7 @@ body{
 
     /* theme1 */
     /* background-color: #E7EEED; */
-    background: #0C1A1A;
+    background: #1b1b1b;
     color: white;
     /* background: #00000048; */
 
@@ -49,19 +49,19 @@ body{
   h1{
     /* color: #1544C0; */
     /* color: #990011; */
-    color: #6ACFC7;
+    color: #E50914;
   }
 
   h3{
-    /* border-bottom: 2px solid #6ACFC7; */
+    /* border-bottom: 2px solid #E50914; */
     text-decoration: underline;
     text-underline-offset: 10px;
-    text-decoration-color: #6ACFC7;
+    text-decoration-color: #E50914;
     width: fit-content;
     margin-bottom: 0px;
   }
 .h {
-  color: #6ACFC7;
+  color: #E50914;
   font-weight: 600;
 }
   .heading{
@@ -90,5 +90,5 @@ label{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6ACFC7;
+  background: #E50914;
 }

@@ -12,7 +12,7 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import { Bounce, Rotate } from "react-awesome-reveal";
+import { Rotate } from "react-awesome-reveal";
 
 export default function Hero() {
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function Hero() {
       </div>
       <div>
         <ul className="w-fit hidden text-[0.8rem] lg:flex my-12 flex-col gap-3">
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="about"
@@ -64,7 +64,7 @@ export default function Hero() {
               ABOUT
             </Link>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="skill"
@@ -78,7 +78,7 @@ export default function Hero() {
               SKILL
             </Link>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <span className="nav px-5 relative bottom-2 mr-5 "></span>
             <Link
               to="project"
@@ -92,8 +92,7 @@ export default function Hero() {
               PROJECTS
             </Link>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
-            <span className="nav px-5 relative bottom-2 mr-5 "></span>
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <Link
               to="contact"
               className="cursor-pointer hover:font-bold transition-all duration-100"
@@ -103,6 +102,7 @@ export default function Hero() {
               duration={500}
               activeClass="nav-active"
             >
+            <span className="nav nav-active px-5 relative bottom-2 mr-5 "></span>
               CONTACT
             </Link>
           </li>
@@ -110,28 +110,28 @@ export default function Hero() {
       </div>
       <div>
         <ul className="flex gap-5 text-2xl items-center">
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://www.facebook.com/profile.php?id=100009339545293">
               <BsFacebook />
             </a>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://github.com/chanmyae-aung">
               <BsGithub />
             </a>
           </li>
-          {/* <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          {/* <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoGmail />
             </a>
           </li> */}
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoTelegram />
             </a>
           </li>
 
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://www.linkedin.com/in/chan-myae-36a717199/">
               <BiLogoLinkedin />
             </a>

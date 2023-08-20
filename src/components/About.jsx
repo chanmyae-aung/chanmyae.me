@@ -40,13 +40,13 @@ export default function About() {
         </div>
         <button
           onClick={() => cv.click()}
-          className="bg-transparent mx-5 lg:mx-0 lg:mb-0 border border-[#6ACFC7] font-semibold text-[#6ACFC7] hover:text-white hover:bg-[#6ACFC7] transition-all duration-400 ease-linear flex items-center gap-3 my-5 py-3 px-5 text-sm rounded"
+          className="bg-transparent mx-5 lg:mx-0 lg:mb-0 border border-[#E50914] font-semibold text-[#E50914] hover:text-white hover:bg-[#E50914] transition-all duration-400 ease-linear flex items-center gap-3 my-5 py-3 px-5 text-sm rounded"
         >
           {" "}
           <AiOutlineDownload className="text-lg" /> 
           <a
             className=" cv"
-            href="../../public/chan_myae_aung_frontend_developer.pdf"
+            href="../../public/chan_myae_aung_frontend_dev.pdf"
             download={true}
             target="_blank"
           >Resume</a>

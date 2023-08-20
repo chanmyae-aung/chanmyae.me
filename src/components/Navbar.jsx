@@ -11,7 +11,7 @@ export default function Navbar() {
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
     <ul className={`${isOpen ? "translate-x-0": "translate-x-full"} transition-all ease-linear duration-500 w-full h-screen text-xl fixed bottom-0 z-10 bg-[#0C1A1A] flex items-center justify-center flex-col gap-10`}>
-        <li  className="text-[#6ACFC7] transition-all ease-linear duration-150">
+        <li  className="text-[#E50914] transition-all ease-linear duration-150">
           <Link
           onClick={() => setOpen(!isOpen)}
             to="about"
@@ -25,7 +25,7 @@ export default function Navbar() {
             ABOUT
           </Link>
         </li>
-        <li  className="text-[#6ACFC7] transition-all ease-linear duration-150">
+        <li  className="text-[#E50914] transition-all ease-linear duration-150">
           <Link
           onClick={() => setOpen(!isOpen)}
             to="skill"
@@ -39,7 +39,7 @@ export default function Navbar() {
             SKILL
           </Link>
         </li>
-        <li  className="text-[#6ACFC7] transition-all ease-linear duration-150">
+        <li  className="text-[#E50914] transition-all ease-linear duration-150">
           <Link
           onClick={() => setOpen(!isOpen)}
             to="project"
@@ -53,7 +53,7 @@ export default function Navbar() {
             PROJECTS
           </Link>
         </li>
-        <li  className="text-[#6ACFC7] transition-all ease-linear duration-150">
+        <li  className="text-[#E50914] transition-all ease-linear duration-150">
           <Link
           onClick={() => setOpen(!isOpen)}
             to="contact"

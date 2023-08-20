@@ -32,7 +32,7 @@ export default function App() {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '1em', display: 'inline-block', fontWeight: 700, color: "#6ACFC7" }}
+      style={{ fontSize: '1em', display: 'inline-block', fontWeight: 700, color: "#E50914" }}
       repeat={Infinity}
     />
     </div>

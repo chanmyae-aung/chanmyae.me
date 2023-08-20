@@ -51,7 +51,7 @@ export default function Contact() {
               type="text"
               required
               placeholder="Enter your name"
-              className="nav focus-within:border-b-[#6ACFC7] transition-colors duration-500 bg-transparent  outline-none block h-12 w-full"
+              className="nav focus-within:border-b-[#E50914] transition-colors duration-500 bg-transparent  outline-none block h-12 w-full"
             />
           </div>
           <div className="lg:w-[50%]">
@@ -60,7 +60,7 @@ export default function Contact() {
               type="text"
               required
               placeholder="Enter your emial address"
-              className="nav focus-within:border-b-[#6ACFC7] transition-colors duration-500 bg-transparent  outline-none block h-12 w-full"
+              className="nav focus-within:border-b-[#E50914] transition-colors duration-500 bg-transparent  outline-none block h-12 w-full"
             />
           </div>
         </div>
@@ -68,38 +68,38 @@ export default function Contact() {
           <label>Your Message</label>
           <textarea
             placeholder="Enter your message"
-            className="nav mt-3 focus-within:border-b-[#6ACFC7] transition-colors duration-500 bg-transparent  block w-full outline-none "
+            className="nav mt-3 focus-within:border-b-[#E50914] transition-colors duration-500 bg-transparent  block w-full outline-none "
             rows="4"
           />
         </div>
-        <button className="bg-transparent border border-[#6ACFC7] font-semibold text-[#6ACFC7] hover:text-white hover:bg-[#6ACFC7] transition-all duration-400 ease-linear flex items-center gap-3 my-5 py-3 px-5 text-sm rounded">
+        <button className="bg-transparent border border-[#E50914] font-semibold text-[#E50914] hover:text-white hover:bg-[#E50914] transition-all duration-400 ease-linear flex items-center gap-3 my-5 py-3 px-5 text-sm rounded">
           Send Message
         </button>
       </form>
       </Fade>
       <ul className="flex gap-5 justify-center my-5 text-2xl lg:hidden items-center">
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://www.facebook.com/profile.php?id=100009339545293">
               <BsFacebook />
             </a>
           </li>
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://github.com/chanmyae-aung">
               <BsGithub />
             </a>
           </li>
-          {/* <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          {/* <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoGmail />
             </a>
           </li> */}
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="#">
               <BiLogoTelegram />
             </a>
           </li>
 
-          <li className="hover:text-[#6ACFC7] transition-all ease-linear duration-150">
+          <li className="hover:text-[#E50914] transition-all ease-linear duration-150">
             <a href="https://www.linkedin.com/in/chan-myae-36a717199/">
               <BiLogoLinkedin />
             </a>
