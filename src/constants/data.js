@@ -136,7 +136,7 @@ export const projects = [
     {
         id: 5,
         image:contactApp,
-        title: "Google Contact",
+        title: "Contact App",
         tech: "React | Tailwind",
         github: "https://github.com/chanmyae-aung/Contact-app",
         demo: "https://contact-app-smoky.vercel.app/",
