@@ -30,7 +30,7 @@ export default function Hero() {
       birdSize: 1,
       wingSpan: 40.00,
       separation: 100.00,
-      quantity: 1.00,
+      quantity: 1.60,
       backgroundAlpha: 0
     })
   },[])

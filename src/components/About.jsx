@@ -26,11 +26,10 @@ export default function About() {
           <p>
             <span className="text-3xl h">H</span>ello! I am Chan Myae Aung. I am
             a Frontend Web Developer, I have a solid understanding of HTML , CSS
-            and JavaScript. I am experienced in using frontend frameworks such
+            and JavaScript. I am experienced in using frontend frameworks and libraries such
             as React, Bootstrap and Tailwind. Also I have a great knowledge and
-            experience in state management library such as Redux Toolkit, Redux
-            Toolkit Query and currently studying Next.Js, React framework, and
-            React Query for state management.
+            experience in state management library such as React Query, Redux Toolkit, Redux
+            Toolkit Query and currently studying Next.Js, React framework.
           </p>
           <p>
             I'm open to Job opportunities where I can contribute, learn and
