@@ -1,5 +1,5 @@
 import nft from '../assets/nft.png'
-import contactApp from '../assets/contact-app.png'
+import fxPortal from '../assets/fx-portal.png'
 import nftDashboard from '../assets/nft-dashboard.png'
 import incline from '../assets/incline.png'
 import social from '../assets/social.png'
@@ -135,12 +135,12 @@ export const projects = [
     },
     {
         id: 5,
-        image:contactApp,
-        title: "Contact App",
+        image:fxPortal,
+        title: "Fx Portal",
         tech: "React | Tailwind",
-        github: "https://github.com/chanmyae-aung/Contact-app",
-        demo: "https://contact-app-smoky.vercel.app/",
-        description: "In this app, users can create and manage their contacts. Best practice of api fetching and state management system of React can see.",
+        github: "https://github.com/chanmyae-aung/fx-portal-foreign-exchange-portal",
+        demo: "https://fx-portal-foreign-exchange-portal.vercel.app/",
+        description: "In this app, users can convert the other currencies to Myanmar Kyat and see the fluctuation of currencies based on EUR.",
         badges: [
             {
                 id: 1,
