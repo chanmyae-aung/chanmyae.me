@@ -16,6 +16,8 @@ export default function App() {
         setIsLoading(false);
       }, 5000);
   },[])
+
+  // Loading state
   if(isLoading) {
     return <div className="flex w-screen h-screen justify-center items-center">
       <TypeAnimation
@@ -37,6 +39,7 @@ export default function App() {
     />
     </div>
   }
+
   return (
     <main className="flex flex-col relative">
       <div className="absolute z-40 w-full lg:hidden h-screen flex items-center"><Navbar/></div>
