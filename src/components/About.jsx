@@ -45,7 +45,7 @@ export default function About() {
           <AiOutlineDownload className="text-lg" /> 
           <a
             className=" cv"
-            href="../../public/chan_myae_aung_frontend_dev.pdf"
+            href="../../public/chanmyaeaung_frontend_dev.pdf"
             download={true}
             target="_blank"
           >Resume</a>

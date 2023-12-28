@@ -12,11 +12,12 @@ import Redux from '../assets/Redux.png'
 import ReQuery from '../assets/ReQuery.png'
 import Git from '../assets/Git.png'
 import Bootstrap from '../assets/Bootstrap.png'
-import SASS from '../assets/SASS.png'
+import Typescript from '../assets/typescript.png'
 import Tailwind from '../assets/Tailwind.png'
 import Figma from '../assets/Figma.png'
 import devjobsearch from '../assets/devjobsearch.png'
 import devdashboard from '../assets/devdashboard.png'
+import SASS from '../assets/SASS.png'
 
 
 
@@ -242,41 +243,46 @@ export const skills = [
     },
     {
         id:5,
-        image:NextJs,
-        title: "Next Js",
+        image:Typescript,
+        title: "Typescript",
     },
     {
         id:6,
-        image:Redux,
-        title: "Redux",
+        image:NextJs,
+        title: "NextJs",
     },
     {
         id:7,
-        image:ReQuery,
-        title: "Re-Query",
-    },
-    {
-        id:8,
         image:Git,
         title: "Git",
     },
     {
+        id:8,
+        image:Redux,
+        title: "Redux",
+    },
+    {
         id:9,
+        image:ReQuery,
+        title: "Re-Query",
+    },
+    {
+        id:10,
         image:Bootstrap,
         title: "Bootstrap",
     },
     {
-        id:10,
+        id:11,
         image:SASS,
         title: "SASS",
     },
     {
-        id:11,
+        id:12,
         image:Tailwind,
         title: "Tailwind",
     },
     {
-        id:12,
+        id:13,
         image:Figma,
         title: "Figma",
     },
